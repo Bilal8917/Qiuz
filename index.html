@@ -177,13 +177,28 @@
   else{
     document.write("the number"+num+"is an odd number");
   }
-  var prime_num=prompt("enter the num");
-  if(document.write("the number"+prime_num+"is not prime number")){
-    //changes
-  }
-  else{
-    document.write("the number"+prime_num+"is an prime number");
-  }
+
+  
+
+const number = 7;
+let isPrime = true;
+
+
+
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if(isPrime==true){
+        document.write("It is a prime num")
+    }
+    else{
+        document.write("It is not a prime num")   
+    }
+
     </script>
      
 </body>
