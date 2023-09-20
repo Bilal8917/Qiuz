@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 2</title>
+</head>
+<body>
+    <script>
+    var PF   = 90;
+    var PF_credit_hour = 3 ;
+    var operating_system = 80;
+    var operating_system_credit_hour  = 4 ;
+    var operation_research   = 89;
+    var operation_research_credit_hour = 2 ;
+    var discreate  = 79;
+    var discreate_credit_hour = 2 ;
+    var web_system  = 83;
+    var web_system_credit_hour= 4 ;
+    var grading=0, result=0;
+
+    if(PF<=100 && PF>=85) {
+        grading = grading + (PF_credit_hour * 4);
+    }
+
+    else if(PF<85 && PF>=80) {
+        grading = grading + (PF_credit_hour * 3.9);
+    }
+
+    else if(PF<80 && PF>=75){
+           grading = grading + (PF_credit_hour * 3.66);
+    }
+
+    else if(PF<75 && PF>=70){
+        grading = grading + (PF_credit_hour * 3.1);
+    }
+
+    else if(PF<70 && PF>=60){
+        grading = grading + (PF_credit_hour * 2.77);
+    }
+
+    else if(PF<60 && PF>=50){
+        grading = grading + (PF_credit_hour * 2.15);
+    }
+
+    else if(PF<50 ){
+        grading = grading + (PF_credit_hour * 2.0);
+    }
+
+    // SECOND SUBJECT
+
+    if(operating_system<=100 && operating_system>=85) {
+        grading = gradingp + (operating_system_credit_hour * 4);
+    }
+
+    else if(operating_system<85 && operating_system>=80) {
+        grading = grading + (operating_system_credit_hour * 3.9);
+    }
+
+    else if(operating_system<80 && operating_system>=75){
+        grading = grading + (operating_system_credit_hour * 3.66);
+    }
+
+    else if(operating_system<75 && operating_system>=70){
+        grading = grading + (operating_system_credit_hour * 3.1);
+    }
+
+    else if(operating_system<70 && operating_system>=60){
+        grading = grading + (operating_system_credit_hour * 2.77);
+    }
+
+    else if(operating_system<60 && operating_system>=50){
+        grading = grading + (operating_system_credit_hour * 2.15);
+    }
+
+    else if(operating_system<50 ){
+        grading = grading + (operating_system_credit_hour * 2.0);
+    }
+
+    // Third Subject
+
+    if(operation_research<=100 && operation_research>=85) {
+        grading = grading + (operation_research_credit_hour * 4);
+    }
+
+    else if(operation_research<85 && operation_research>=80) {
+        grading = grading + (operation_research_credit_hour * 3.9);
+    }
+
+    else if(operation_research<80 && operation_research>=75){
+        grading = grading + (operation_research_credit_hour * 3.66);
+    }
+
+    else if(operation_research<75 && operation_research>=70){
+        grading = grading + (operation_research_credit_hour * 3.1);    }
+
+    else if(operation_research<70 && operation_research>=60){
+        grading = grading + (operation_research_credit_hour * 2.77);
+    }
+
+    else if(operation_research<60 && operation_research>=50){
+        grading = grading + (operation_research_credit_hour * 2.15);
+    }
+
+    else if(operation_research<50 ){
+        grading = grading + (operation_research_credit_hour * 2.0);
+    }
+
+    // FOURTH SUBJECT
+
+    if(discreate<=100 && discreate>=85) {
+        grading = grading + (discreate_credit_hour * 4);
+    }
+
+    else if(discreate<85 && discreate>=80) {
+        grading = grading + (discreate_credit_hour * 3.9);
+    }
+
+    else if(discreate<80 && discreate>=75){
+        grading = grading + (discreate_credit_hour * 3.66);
+    }
+
+    else if(discreate<75 && discreate>=70){
+        grading = grading + (discreate_credit_hour * 3.1);
+    }
+
+    else if(discreate<70 && discreate>=60){
+        grading = grading + (discreate_credit_hour * 2.77);
+    }
+
+    else if(discreate<60 && discreate>=50){
+        grading = grading + (discreate_credit_hour * 2.15);
+    }
+
+    else if(discreate<50 ){
+        grading = grading + (discreate_credit_hour * 2.0);
+    }
+
+    // FIFTH SUBJECT
+    
+    if(web_system<=100 && web_system>=85) {
+        grading = grading + (web_system_credit_hour * 4);
+    }
+
+    else if(web_system<85 && web_system>=80) {
+        grading = grading + (web_system_credit_hour * 3.9);
+    }
+
+    else if(web_system<80 && web_system>=75){
+        grading = grading + (web_system_credit_hour * 3.66);
+    }
+
+    else if(web<75 && web>=70){
+        grading = grading + (web_system_credit_hour * 3.1);
+    }
+
+    else if(web_system<70 && web_system>=60){
+        grading = grading + (web_system_credit_hour * 2.77);
+    }
+
+    else if(web_system<60 && web_system>=50){
+        grading = grading + (web_system_credit_hour * 2.15);
+    }
+
+    else if(web_system<50 ){
+        grading = grading + (web_system_credit_hour * 2.0);
+    }
+    
+    result= result+(grading/15);
+    document.write(result);
+
+    
+  var num=prompt("enter the number");
+  if(num%2==0){
+    document.write("the number"+num+"is an even number");
+  }
+  else{
+    document.write("the number"+num+"is an odd number");
+  }
+  var prime_num=prompt("enter the num");
+  if(document.write("the number"+prime_num+"is not prime number")){
+    
+  }
+  else{
+    document.write("the number"+prime_num+"is an prime number");
+  }
+    </script>
+     
+</body>
+</html>
